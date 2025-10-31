@@ -1,0 +1,8 @@
+C:/Users/fabi7/OneDrive/Documentos/Estructura de Datos/ds-u2-actividad-1-listasenlazadassimples-FabiRamiro/build/CMakeFiles/SistemaIoTSensores.dir
+C:/Users/fabi7/OneDrive/Documentos/Estructura de Datos/ds-u2-actividad-1-listasenlazadassimples-FabiRamiro/build/CMakeFiles/doc.dir
+C:/Users/fabi7/OneDrive/Documentos/Estructura de Datos/ds-u2-actividad-1-listasenlazadassimples-FabiRamiro/build/CMakeFiles/edit_cache.dir
+C:/Users/fabi7/OneDrive/Documentos/Estructura de Datos/ds-u2-actividad-1-listasenlazadassimples-FabiRamiro/build/CMakeFiles/rebuild_cache.dir
+C:/Users/fabi7/OneDrive/Documentos/Estructura de Datos/ds-u2-actividad-1-listasenlazadassimples-FabiRamiro/build/CMakeFiles/list_install_components.dir
+C:/Users/fabi7/OneDrive/Documentos/Estructura de Datos/ds-u2-actividad-1-listasenlazadassimples-FabiRamiro/build/CMakeFiles/install.dir
+C:/Users/fabi7/OneDrive/Documentos/Estructura de Datos/ds-u2-actividad-1-listasenlazadassimples-FabiRamiro/build/CMakeFiles/install/local.dir
+C:/Users/fabi7/OneDrive/Documentos/Estructura de Datos/ds-u2-actividad-1-listasenlazadassimples-FabiRamiro/build/CMakeFiles/install/strip.dir

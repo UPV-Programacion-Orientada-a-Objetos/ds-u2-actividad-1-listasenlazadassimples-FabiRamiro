@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['getcontador_0',['getContador',['../class_lista_general.html#a3505da653edd71c269ced15501b9b53e',1,'ListaGeneral::getContador()'],['../class_lista_sensor.html#aafa369070a4d89d026b3612f2b01f930',1,'ListaSensor::getContador()']]],
+  ['getnombre_1',['getNombre',['../class_sensor_base.html#ae96d193c623231a955756bceac482f9c',1,'SensorBase']]]
+];
