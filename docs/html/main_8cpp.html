@@ -98,11 +98,12 @@ $(function(){initNavTree('main_8cpp.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 
-<p>Programa principal del sistema IoT de gestión de sensores.  
+<p>Programa principal del sistema IoT de gestion de sensores.  
 <a href="#details">Más...</a></p>
 <div class="textblock"><code>#include &lt;iostream&gt;</code><br />
 <code>#include &lt;cstdlib&gt;</code><br />
 <code>#include &lt;cstring&gt;</code><br />
+<code>#include &lt;limits&gt;</code><br />
 <code>#include &quot;<a class="el" href="_sensor_temperatura_8h_source.html">SensorTemperatura.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_sensor_presion_8h_source.html">SensorPresion.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="_lista_general_8h_source.html">ListaGeneral.h</a>&quot;</code><br />
@@ -112,23 +113,51 @@ $(function(){initNavTree('main_8cpp.html',''); initResizable(); });
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Funciones</h2></td></tr>
+<tr class="memitem:a7748ac9020f1ce52cd9d04ae9897f31d" id="r_a7748ac9020f1ce52cd9d04ae9897f31d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_nodo.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7748ac9020f1ce52cd9d04ae9897f31d">detectarPuertosCOM</a> ()</td></tr>
+<tr class="memdesc:a7748ac9020f1ce52cd9d04ae9897f31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detecta y muestra los puertos COM disponibles en Windows.  <br /></td></tr>
+<tr class="separator:a7748ac9020f1ce52cd9d04ae9897f31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af66f94c210f9406f9d3e3de6d770d025" id="r_af66f94c210f9406f9d3e3de6d770d025"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_nodo.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af66f94c210f9406f9d3e3de6d770d025">imprimirMenu</a> ()</td></tr>
-<tr class="memdesc:af66f94c210f9406f9d3e3de6d770d025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imprime el menú principal del sistema.  <br /></td></tr>
+<tr class="memdesc:af66f94c210f9406f9d3e3de6d770d025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Imprime el menu principal del sistema.  <br /></td></tr>
 <tr class="separator:af66f94c210f9406f9d3e3de6d770d025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5369e3a8c2cd9e580b7a61217e93e6b9" id="r_a5369e3a8c2cd9e580b7a61217e93e6b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_nodo.html">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5369e3a8c2cd9e580b7a61217e93e6b9">parsearLinea</a> (<a class="el" href="struct_nodo.html">const</a> <a class="el" href="struct_nodo.html">char</a> *<a class="el" href="struct_nodo.html">linea</a>, <a class="el" href="struct_nodo.html">char</a> *<a class="el" href="struct_nodo.html">tipo</a>, <a class="el" href="struct_nodo.html">char</a> *<a class="el" href="struct_nodo.html">id</a>, <a class="el" href="struct_nodo.html">char</a> *<a class="el" href="struct_nodo.html">valor</a>)</td></tr>
-<tr class="memdesc:a5369e3a8c2cd9e580b7a61217e93e6b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parsea una línea de datos del formato serial.  <br /></td></tr>
+<tr class="memdesc:a5369e3a8c2cd9e580b7a61217e93e6b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parsea una linea de datos del formato serial.  <br /></td></tr>
 <tr class="separator:a5369e3a8c2cd9e580b7a61217e93e6b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4" id="r_ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_nodo.html">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
-<tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Función principal del programa.  <br /></td></tr>
+<tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Funcion principal del programa.  <br /></td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Descripción detallada</h2>
-<div class="textblock"><p>Programa principal del sistema IoT de gestión de sensores. </p>
+<div class="textblock"><p>Programa principal del sistema IoT de gestion de sensores. </p>
 <dl class="section author"><dt>Autor</dt><dd>FabiRamiro </dd></dl>
 <dl class="section date"><dt>Fecha</dt><dd>2025-10-31 </dd></dl>
 
 <p class="definition">Definición en el archivo <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 </div><h2 class="groupheader">Documentación de funciones</h2>
+<a id="a7748ac9020f1ce52cd9d04ae9897f31d" name="a7748ac9020f1ce52cd9d04ae9897f31d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7748ac9020f1ce52cd9d04ae9897f31d">&#9670;&#160;</a></span>detectarPuertosCOM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_nodo.html">void</a> detectarPuertosCOM </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"></span></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Detecta y muestra los puertos COM disponibles en Windows. </p>
+
+<p class="definition">Definición en la línea <a class="el" href="main_8cpp_source.html#l00024">24</a> del archivo <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+
+<p class="reference">Hace referencia a <a class="el" href="_lista_sensor_8h_source.html#l00027">Nodo&lt; T &gt;::Nodo()</a>.</p>
+
+<p class="reference">Referenciado por <a class="el" href="main_8cpp_source.html#l00127">main()</a>.</p>
+
+</div>
+</div>
 <a id="af66f94c210f9406f9d3e3de6d770d025" name="af66f94c210f9406f9d3e3de6d770d025"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af66f94c210f9406f9d3e3de6d770d025">&#9670;&#160;</a></span>imprimirMenu()</h2>
 
@@ -144,13 +173,13 @@ Funciones</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Imprime el menú principal del sistema. </p>
+<p>Imprime el menu principal del sistema. </p>
 
-<p class="definition">Definición en la línea <a class="el" href="main_8cpp_source.html#l00019">19</a> del archivo <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="main_8cpp_source.html#l00074">74</a> del archivo <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 
 <p class="reference">Hace referencia a <a class="el" href="_lista_sensor_8h_source.html#l00027">Nodo&lt; T &gt;::Nodo()</a>.</p>
 
-<p class="reference">Referenciado por <a class="el" href="main_8cpp_source.html#l00071">main()</a>.</p>
+<p class="reference">Referenciado por <a class="el" href="main_8cpp_source.html#l00127">main()</a>.</p>
 
 </div>
 </div>
@@ -169,12 +198,12 @@ Funciones</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Función principal del programa. </p>
-<dl class="section return"><dt>Devuelve</dt><dd>Código de salida del programa </dd></dl>
+<p>Funcion principal del programa. </p>
+<dl class="section return"><dt>Devuelve</dt><dd>Codigo de salida del programa </dd></dl>
 
-<p class="definition">Definición en la línea <a class="el" href="main_8cpp_source.html#l00071">71</a> del archivo <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="main_8cpp_source.html#l00127">127</a> del archivo <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 
-<p class="reference">Hace referencia a <a class="el" href="main_8cpp_source.html#l00019">imprimirMenu()</a>, <a class="el" href="_lista_sensor_8h_source.html#l00027">Nodo&lt; T &gt;::Nodo()</a> y <a class="el" href="main_8cpp_source.html#l00042">parsearLinea()</a>.</p>
+<p class="reference">Hace referencia a <a class="el" href="main_8cpp_source.html#l00024">detectarPuertosCOM()</a>, <a class="el" href="main_8cpp_source.html#l00074">imprimirMenu()</a>, <a class="el" href="_lista_sensor_8h_source.html#l00027">Nodo&lt; T &gt;::Nodo()</a> y <a class="el" href="main_8cpp_source.html#l00098">parsearLinea()</a>.</p>
 
 </div>
 </div>
@@ -207,10 +236,10 @@ Funciones</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Parsea una línea de datos del formato serial. </p>
+<p>Parsea una linea de datos del formato serial. </p>
 <dl class="params"><dt>Parámetros</dt><dd>
   <table class="params">
-    <tr><td class="paramname">linea</td><td>Línea a parsear (formato: "TIPO:ID:VALOR") </td></tr>
+    <tr><td class="paramname">linea</td><td>Linea a parsear (formato: "TIPO:ID:VALOR") </td></tr>
     <tr><td class="paramname">tipo</td><td>Buffer para almacenar el tipo de sensor </td></tr>
     <tr><td class="paramname">id</td><td>Buffer para almacenar el ID del sensor </td></tr>
     <tr><td class="paramname">valor</td><td>Buffer para almacenar el valor como cadena </td></tr>
@@ -218,11 +247,11 @@ Funciones</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definición en la línea <a class="el" href="main_8cpp_source.html#l00042">42</a> del archivo <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
+<p class="definition">Definición en la línea <a class="el" href="main_8cpp_source.html#l00098">98</a> del archivo <a class="el" href="main_8cpp_source.html">main.cpp</a>.</p>
 
 <p class="reference">Hace referencia a <a class="el" href="_lista_sensor_8h_source.html#l00027">Nodo&lt; T &gt;::Nodo()</a>.</p>
 
-<p class="reference">Referenciado por <a class="el" href="main_8cpp_source.html#l00071">main()</a>.</p>
+<p class="reference">Referenciado por <a class="el" href="main_8cpp_source.html#l00127">main()</a>.</p>
 
 </div>
 </div>

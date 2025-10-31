@@ -17,5 +17,6 @@ var searchData=
   ['desconectar_14',['desconectar',['../class_serial_reader.html#a4b280533d481d64ae61fcf3d88fabee8',1,'SerialReader']]],
   ['detallado_15',['Proceso de Solución Detallado',['../md__r_e_a_d_m_e.html#autotoc_md7',1,'']]],
   ['detalles_20del_20proceso_20a_20desarrollar_16',['Definición y Detalles del Proceso a Desarrollar',['../md__r_e_a_d_m_e.html#autotoc_md5',1,'']]],
-  ['diseño_20de_20clases_20obligatorias_17',['Diseño de Clases Obligatorias',['../md__r_e_a_d_m_e.html#autotoc_md6',1,'']]]
+  ['detectarpuertoscom_17',['detectarPuertosCOM',['../main_8cpp.html#a7748ac9020f1ce52cd9d04ae9897f31d',1,'main.cpp']]],
+  ['diseño_20de_20clases_20obligatorias_18',['Diseño de Clases Obligatorias',['../md__r_e_a_d_m_e.html#autotoc_md6',1,'']]]
 ];
